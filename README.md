@@ -1,5 +1,5 @@
 # discord-spy-bot
-A discord bot that spys your discord activities in a server:
+A Discord-Bot that spys your Discord activities in a server:
 - Leaves
 - Joins
 - Text-Chat activity
