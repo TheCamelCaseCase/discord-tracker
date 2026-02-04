@@ -4,4 +4,5 @@ A discord bot that spys your discord activities in a server:
 - Joins
 - Text-Chat activity
 - Voice-Chat activity
+
 etc.
