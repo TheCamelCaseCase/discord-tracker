@@ -16,10 +16,10 @@ public class MyListener extends ListenerAdapter
         String content = message.getContentRaw();
         // getContentRaw() is an atomic getter
         // getContentDisplay() is a lazy getter which modifies the content for e.g. console view (strip discord formatting)
-        if (content.toLowerCase().contains("black"))
+        if (content.toLowerCase().contains("Hi"))
         {
             MessageChannel channel = event.getChannel();
-            channel.sendMessage("Nigger!!!").queue(); // Important to call .queue() on the RestAction returned by sendMessage(...)
+            channel.sendMessage("Bye!!!").queue(); // Important to call .queue() on the RestAction returned by sendMessage(...)
         }
     }
 }
